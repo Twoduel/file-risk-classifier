@@ -1,5 +1,10 @@
+# Python
 __pycache__/
 *.pyc
+
+# Model
 model/
 *.pkl
+
+# VSCode
 .env
