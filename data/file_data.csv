@@ -1,0 +1,11 @@
+size,has_exe,download_count,label
+1200,1,500,malware
+300,0,10,safe
+5000,1,2000,malware
+150,0,5,safe
+800,1,120,malware
+220,0,7,safe
+4000,1,1500,malware
+100,0,3,safe
+900,1,300,malware
+180,0,6,safe
