@@ -15,14 +15,22 @@
 
 file-risk-classifier
 │
+│ # training dataset
 ├─ data
 │   └─ file_data.csv
 │
+│ # source code
 ├─ src
 │   ├─ train.py
 │   ├─ predict.py
 │   └─ utils.py
 │
+│ # trained model (in .gitignor file)
+├─ model
+│  
+│ # import package installation
+├─ requirements.txt
+│  
 └─ README.md
 
 
@@ -53,6 +61,9 @@ Train / Test 데이터를 분리하여 모델 성능을 평가했습니다.
 
 
 ## 실행 방법
+# import된 패키지 설치
+pip install -r requirements.txt
+
 # 모델 학습
 python src/train.py
 
