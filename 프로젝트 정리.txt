@@ -65,3 +65,8 @@ model/         # 모델 폴더 제외
 
 C:\Users\sujun\Documents\Python\file-risk-classifier
 
+
+로그 기반 공격 탐지 시스템
+
+[Library]
+import numpy  # 대규모 다차원 배열과 행렬 연산을 위한 핵심 과학 게산 라이브러리
