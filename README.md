@@ -69,3 +69,10 @@ python src/train.py
 
 # 파일 위험도 예측
 python src/predict.py
+
+
+
+## logging 기능 추가
+2026-03-16 17:22:03,036 - INFO - CLI Started
+2026-03-16 17:22:05,012 - INFO - Model loaded
+2026-03-16 17:22:05,016 - INFO - Prediction executed
