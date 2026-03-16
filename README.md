@@ -76,3 +76,15 @@ python src/predict.py
 2026-03-16 17:22:03,036 - INFO - CLI Started
 2026-03-16 17:22:05,012 - INFO - Model loaded
 2026-03-16 17:22:05,016 - INFO - Prediction executed
+
+
+
+## 데이터 시각화
+# 파일 크기 분포
+![File Size Distribution](images/file_size_distribution.png)
+
+# 다운로드 수 분포
+![Download Cont Distribution](images/dwonload_distribution.png)
+
+# malware VS. safe 파일 비율
+![File State Retio](images/malware_ratio.png)
