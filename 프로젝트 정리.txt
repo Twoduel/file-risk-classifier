@@ -70,3 +70,12 @@ C:\Users\sujun\Documents\Python\file-risk-classifier
 
 [Library]
 import numpy  # 대규모 다차원 배열과 행렬 연산을 위한 핵심 과학 게산 라이브러리
+
+1 모델 저장
+2 CLI 예측
+3 로그 시스템
+4 데이터 시각화
+
+5 PE 파일 분석
+6 GUI 프로그램
+7 웹 서비스

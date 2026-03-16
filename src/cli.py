@@ -3,7 +3,11 @@
 import pickle
 import sys
 import numpy as np
-import pandas as pd
+
+from logger import logger
+
+# logging
+logger.info("CLI Started")
 
 # 학습된 모델 불러오기
 with open("model/model.pkl", "rb") as f:
@@ -19,11 +23,17 @@ size = int(sys.argv[1])
 has_exe = int(sys.argv[2])
 download_count = int(sys.argv[3])
 
+# logging
+logger.info("Model loaded")
+
 # 입력받는 인자값을 배열로 저장
 data = np.array([[size, has_exe, download_count]])
 
 #모델 예측
 prediction = model.predict(data)
+
+# 예측 후 logging
+logger.info("Prediction executed")
 
 if prediction[0] == 1:
     print("⚠️ Malware detected⚠️")
