@@ -52,6 +52,8 @@ file-risk-classifier
 
 실제 파일을 넣어서 검사하는 기능  => python src/predict.py sample.exe
 
+CLI : 실행자가 직접 터미널에서 <경로>, <파일 feature> 을 입력해야한다는 번거로움이 있어 GUI 프로그램으로 업데이트
+
 
 [.gitignore file]
 __pycache__/  # Python 캐시 폴더 제외
